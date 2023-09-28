@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\work\\CodeChallenge\\HackerNews-Api-Service\\HackerNews-Service\\HackerNews-Service\\HackerNews-Service.csproj": {}
+  },
+  "projects": {
+    "C:\\work\\CodeChallenge\\HackerNews-Api-Service\\HackerNews-Service\\HackerNews-Service\\HackerNews-Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\work\\CodeChallenge\\HackerNews-Api-Service\\HackerNews-Service\\HackerNews-Service\\HackerNews-Service.csproj",
+        "projectName": "HackerNews-Service",
+        "projectPath": "C:\\work\\CodeChallenge\\HackerNews-Api-Service\\HackerNews-Service\\HackerNews-Service\\HackerNews-Service.csproj",
+        "packagesPath": "C:\\Users\\iduarte\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\CodeChallenge\\HackerNews-Api-Service\\HackerNews-Service\\HackerNews-Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iduarte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\LocalNuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://pkgs.dev.azure.com/finthrive/_packaging/finthrive/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
