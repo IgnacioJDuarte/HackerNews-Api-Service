@@ -1,6 +1,6 @@
 ﻿namespace HackerNews_Service.Models
 {
-    public class Story
+    public class Stories
     {
         private string? by;
         private int descendants;
@@ -12,7 +12,7 @@
         private string? type;
         private string? url;
 
-        public Story()
+        public Stories()
         {
             Kids = new List<int>();
         }
