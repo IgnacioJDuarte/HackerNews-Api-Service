@@ -24,7 +24,6 @@
           "C:\\LocalNuget": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "https://pkgs.dev.azure.com/finthrive/_packaging/finthrive/nuget/v3/index.json": {},
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
@@ -50,6 +49,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

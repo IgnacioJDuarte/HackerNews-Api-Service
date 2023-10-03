@@ -1,3 +1,5 @@
+using HackerNews_Service.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
